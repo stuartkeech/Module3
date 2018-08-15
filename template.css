@@ -1,0 +1,83 @@
+/**https://publicdomainvectors.org/en/free-clipart/Dove-vector-illustration/4192.html*/
+html, body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+}
+
+.home-wrap header {
+  width: 150px;
+  padding: 50px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff8dc;
+}
+
+.home-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+  text-indent: -9999px;
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  backgorund-size: contain;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.site-nav > ul{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0 20px 0 0;
+    text-align: right;
+}
+
+.site-nav li {
+    margin-bottom: 20px;
+}
+
+.site-nav li > a {
+    color: #FFA07A;
+    text-decoration: none;
+    font-family: "verdana";
+    font-size: 30px;
+}
+
+.site-nav li:last-child {
+    margin: 0;
+}
+
+.top-bar {
+    display: inline-block;
+    background: #FFA07A;
+    height: 100px;
+    margin-left: 150px;
+}
+
+
+.top-bar > p {
+    text-align: right;
+    margin: 10px 10px 0 0;
+}
+
+.top-bar > h1 {
+    position: absolute;
+    margin: 30px 0 0 30px;
+    padding: 0;
+}
+
+.main-body {
+    height: 2000px;
+    margin-left: 150px;
+}
