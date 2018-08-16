@@ -1,3 +1,4 @@
+@charset "ISO-8859-1";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
@@ -83,6 +84,7 @@ a:focus {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    padding-top: 10px;
 }
 
 #dismiss:hover {
@@ -132,12 +134,16 @@ a:focus {
     background: #fff;
 }
 
-#sidebar ul li.active>a,
+#sidebar ul li.active > a,
 a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
 }
 
+.sidebar-header > h1{
+    text-align: center;
+    font-size: 4em;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
